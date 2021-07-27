@@ -1,0 +1,10 @@
+#!/usr/bin/env python
+# -- coding: utf-8 --
+
+from pkg_1.perso import Perso
+
+juka = Perso("Juka")
+juka.gain_exp(50)
+print(juka.exp)
+juka.gain_exp(60)
+print(juka.level)
