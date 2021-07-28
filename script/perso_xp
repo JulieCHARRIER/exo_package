@@ -5,6 +5,22 @@ from pkg_1.perso import Perso
 
 juka = Perso("Juka")
 juka.gain_exp(50)
-print(juka.exp)
+print(f'exp = {juka.exp}')
+# 50
+print(f'level = {juka.level}')
+# 1
 juka.gain_exp(60)
-print(juka.level)
+print(f'exp = {juka.exp}')
+# 10
+print(f'level = {juka.level}')
+# 2
+juka.gain_exp(100)
+print(f'exp = {juka.exp}')
+# 110
+print(f'level = {juka.level}')
+# 2
+juka.gain_exp(20)
+print(f'exp = {juka.exp}')
+# 10
+print(f'level = {juka.level}')
+# 3
